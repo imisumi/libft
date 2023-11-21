@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: imisumi <imisumi@student.42.fr>            +#+  +:+       +#+        */
+/*   By: imisumi-wsl <imisumi-wsl@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 16:23:26 by imisumi           #+#    #+#             */
-/*   Updated: 2023/01/31 12:57:19 by imisumi          ###   ########.fr       */
+/*   Updated: 2023/11/21 21:02:48 by imisumi-wsl      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include "../src/gnl/get_next_line.h"
+# include "get_next_line.h"
 
 # include <stdlib.h>
 # include <unistd.h>
@@ -61,6 +61,5 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
-
 
 #endif
